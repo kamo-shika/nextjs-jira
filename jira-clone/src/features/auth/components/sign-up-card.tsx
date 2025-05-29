@@ -3,14 +3,31 @@ import { FaGithub } from "react-icons/fa";
 
 import { DottedSeparator } from "@/components/dotted-separator";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+} from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
+import Link from "next/link";
 
-export const SignInCard = () => {
+export const SignUpCard = () => {
   return (
-    <Card className="h-full w-full shadow-none md:w-[487px]">
-      <CardHeader className="flex items-center justify-center p-7 text-center">
-        <CardTitle className="text-2xl">Welcom back!</CardTitle>
+    <Card className="h-full w-full border-none shadow-none md:w-[487px]">
+      <CardHeader className="flex flex-col items-center justify-center p-7 text-center">
+        <CardTitle className="text-2xl">Sign Up</CardTitle>
+        <CardDescription>
+          Sign up here, you agree to our{" "}
+          <Link href="/privacy">
+            <span className="text-blue-700">Privacy Policy</span>
+          </Link>{" "}
+          and{" "}
+          <Link href="/terms">
+            <span className="text-blue-700">Terms of Service</span>
+          </Link>
+        </CardDescription>
       </CardHeader>
       <div className="mb-2 px-7">
         <DottedSeparator />
