@@ -1,3 +1,8 @@
+// RootLayout: アプリケーション全体のレイアウトを定義するコンポーネント
+// - メタデータの設定（タイトル、説明）
+// - HTMLの基本構造とフォントの設定（Inter）
+// - アンチエイリアシングの適用
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { cn } from "@/lib/utils";

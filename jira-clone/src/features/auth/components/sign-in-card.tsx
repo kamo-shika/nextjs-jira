@@ -1,3 +1,9 @@
+// SignInCard: サインインフォームを含むカードコンポーネント
+// - Zodを使用したフォームバリデーション
+// - メール/パスワードによるログイン
+// - OAuth（Google/Github）によるソーシャルログイン
+// - サインアップページへのリンク
+
 import { z } from "zod";
 
 import { FcGoogle } from "react-icons/fc";

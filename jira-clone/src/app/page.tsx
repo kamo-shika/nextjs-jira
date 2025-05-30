@@ -1,3 +1,7 @@
+// Home: メインページコンポーネント
+// - 様々なスタイルのボタンとインプットフィールドのデモ表示
+// - UIコンポーネントの使用例を示すページ
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 

@@ -1,3 +1,8 @@
+// AuthLayout: 認証関連ページ（サインイン/サインアップ）の共通レイアウト
+// - ヘッダーにロゴと認証切り替えボタンを配置
+// - レスポンシブデザイン対応
+// - 子コンポーネントを中央配置
+
 "use client";
 
 import { Button } from "@/components/ui/button";

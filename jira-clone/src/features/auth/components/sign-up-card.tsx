@@ -1,3 +1,10 @@
+// SignUpCard: サインアップフォームを含むカードコンポーネント
+// - Zodを使用したフォームバリデーション
+// - 名前、メール、パスワードの入力フィールド
+// - OAuth（Google/Github）によるソーシャルサインアップ
+// - プライバシーポリシーと利用規約へのリンク
+// - サインインページへのリンク
+
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
 
